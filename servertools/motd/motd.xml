@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE greeting [
+    <!ELEMENT greeting (header, rules)>
+    <!ELEMENT header (title, title)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT rules ((de-rule)+, (en-rule)+, (de-settings), (en-settings))>
+    <!ELEMENT de-rule (#PCDATA)>
+    <!ELEMENT en-rule (#PCDATA)>
+    <!ELEMENT de-settings (setting)+>
+    <!ELEMENT en-settings (setting)+>
+    <!ELEMENT setting (description, value)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT value (#PCDATA)>
+]>
+<?xml-stylesheet href="motd.xsl" type="text/xsl"?>
+<!-- 
+ * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (c) 2009 KillerSpieler, Walki                   *
+ * http://steamcommunity.com/groups/ZPSBallerbude  *
+ * License: GPLv3+                                 *
+ * * * * * * * * * * * * * * * * * * * * * * * * * *
+-->
+<greeting>
+	<header>
+        <title></title>
+        <title></title>
+    </header>
+
+    <rules>
+        <de-rule>Rassismus wird nicht toleriert.</de-rule>
+        <de-rule>Zombie leaver werden gebannt (am Anfang der Runde).</de-rule>
+        <de-rule>Buguser und Cheater werden gekickt/gebannt.</de-rule>
+        <de-rule>Mikropfonspammer (HLSS) werden gebannt.</de-rule>
+        <de-rule>Bitte versucht das Fluchen zu unterbinden sonst werdet ihr gemuted.</de-rule>
+        <de-rule>Sammle nur Munition die du brauchst!</de-rule>
+        <de-rule>Hier wird Deutsch oder Englisch gesprochen.</de-rule>
+        <en-rule>Racism is not tolerated.</en-rule>
+        <en-rule>Zombie team droppers will be banned (after start of round)</en-rule>
+        <en-rule>Buguser and cheater will be kicked/banned.</en-rule>
+        <en-rule>Mic spammer will be banned. No HLSS!</en-rule>
+        <en-rule>Please avoid swearing or you get muted.</en-rule>
+        <en-rule>Only pick up ammo that you need!</en-rule>
+        <en-rule>Talk only german or english.</en-rule>
+        <de-settings>
+            <setting>
+                <description>Teamübergreifender Voicechat ist:</description>
+                <value>ON</value>
+            </setting>
+            <setting>
+                <description>Teambeschuss ist:</description>
+                <value>OFF</value>
+            </setting>
+            <setting>
+                <description>Infektionsrate ist:</description>
+                <value>30%</value>
+            </setting>
+            <setting>
+                <description>High Ping Kicker steht auf:</description>
+                <value>300ms</value>
+            </setting>
+        </de-settings>
+        <en-settings>
+            <setting>
+                <description>All talk is:</description>
+                <value>ON</value>
+            </setting>
+            <setting>
+                <description>Friendly fire is:</description>
+                <value>OFF</value>
+            </setting>
+            <setting>
+                <description>Infection rate is:</description>
+                <value>30%</value>
+            </setting>
+            <setting>
+                <description>High ping kicker status:</description>
+                <value>300ms</value>
+            </setting>
+        </en-settings>
+    </rules>
+</greeting>

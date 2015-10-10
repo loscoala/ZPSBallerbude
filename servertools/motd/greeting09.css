@@ -1,0 +1,76 @@
+/* 
+ * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (c) 2009 KillerSpieler, Walki                   *
+ * http://steamcommunity.com/groups/ZPSBallerbude  *
+ * License: GPLv3+                                 *
+ * * * * * * * * * * * * * * * * * * * * * * * * * *
+ */
+
+* {
+    margin : 0;
+    padding : 0;
+}
+h1 {
+    color : red;
+    font-size : 50px;
+}
+body {
+    background-color : #000000;
+    font-family : Helvetica,Arial,sans-serif;
+    text-align : center;
+}
+ul {
+    line-height : 1.25;
+    list-style : disc;
+    margin : 15px 5px;
+}
+li {
+    cursor : default;
+    margin-left : 20px;
+}
+.tabelle {
+    border : 20px solid #666666;
+    margin : auto;
+}
+.tabelle th {
+    color : #FFFFFF;
+    font-weight : normal;
+    letter-spacing : 1px;
+    text-transform : uppercase;
+    text-align : center;
+    font-size : 15px;
+}
+.tabelle td {
+    font-weight : normal;
+    border-top : 1px dotted #FFFFFF;
+    letter-spacing : 1px;
+    font-size : 15px;
+    text-align : left;
+}
+.tabelle th, .tabelle td {
+    border-right : 1px hidden #FFFFFF;
+    padding : .5em .4em;
+}
+.tabelle tr {
+    color : #FFFFFF
+}
+.tabelle .lle {
+    border-right : 1px dotted #FFFFFF;
+}
+#content {
+    text-align : center;
+}
+#header {
+    height : 120px;
+    width : 100%;
+    background-image : url(images/banner.gif); 
+    background-repeat : no-repeat; 
+    background-color : black; 
+    background-position : center 0%;
+}
+.info {
+    text-align : right;
+}
+.info2 {
+    text-align : center;
+}
